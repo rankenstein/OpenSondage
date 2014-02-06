@@ -81,23 +81,21 @@ img {
 
 div.bandeau{ 
 	text-align:center;
-	background-color: #EAEAFF;
+	background-color: #333;
 	color:white;
 	vertical-align:middle;
 	font-size:42px;
 	font-family:arial;
-	padding:8px; 
-	height:40px;
-	position:static;
-	top:6px;
-	left:6px;
-	right:6px;
-	padding-top:35px;
-
+	padding-top:10px;
+	margin-bottom:10px;
 }
 
 .bandeau > a {
     text-decoration:none;
+}
+
+.bandeau img {
+	margin-left:20%;
 }
 
 div.logo{ 
@@ -112,23 +110,14 @@ div.logo{
 }
 /*Sous bandeau avec bouton de navigation*/
 div.bandeautitre{ 
-	height:17px;
-	background-color: #EAEAFF;
 	font-size:14px;
 	font-weight:bold;
-	text-align:center;
-	color:#404040;
-        font-style: italic;
-	vertical-align:middle;
-	font-family:arial;
- 	padding:3px; 
-	position:static;
-	top:57px;
-	left:6px;
-	right:6px;
-	margin-bottom: 1em;
-	border-bottom: 1px solid #CCC;
+	color:#b3ff42;
+	position:absolute;
+	top:80px;
+	left:20px;
 } 
+
 div.sousbandeau{ 
 	height:17px;
 	background-color: #C4C4FF;
